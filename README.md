@@ -4,6 +4,11 @@ This project uses [Apify](https://apify.com/) to scrape Data Analyst job posting
 
 ---
 
+## 📊 Skill Frequency Chart
+This chart visualizes the most commonly mentioned skills found in Data Analyst job descriptions scraped from Indeed using Apify. It shows demand for tools like SQL, Python, Excel, and BI platforms across California listings.
+
+---
+
 ## 🚀 Features
 
 - ✅ Scrapes jobs by keyword and location using Apify cloud actor
@@ -51,15 +56,16 @@ This tool is perfect for:
 pip install -r requirements.txt
 python fetch_apify_jobs.py
 
+---
 
-## Requirements
+## Requirements / Data Source
 
 Python 3.8+
 pandas
 requests
 openpyxl
 
-## Data Source
+Data Source
 
 Apify Indeed Scraper
 Indeed.com
