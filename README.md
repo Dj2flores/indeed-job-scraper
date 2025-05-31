@@ -51,15 +51,15 @@ This tool is perfect for:
 ---
 ## Requirements / Data Source
 
-Python 3.8+
-pandas
-requests
-openpyxl
+- Python 3.8+
+- pandas
+- requests
+- openpyxl
 
 Data Source
 
-Apify Indeed Scraper
-Indeed.com
+- Apify Indeed Scraper
+- Indeed.com
 
 
 ## 🧪 How to Run
