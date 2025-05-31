@@ -31,12 +31,16 @@ for skill, count in skill_counts.most_common():
 # Results
 skills, counts = zip(*skill_counts.most_common())
 plt.figure(figsize=(10, 6))
-plt.bar(skills, counts)
+bars = plt.bar(skills, counts)
+
+# Add labels
+for bar in bars:
+    yval = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2, yval + 0.5, int(yval), ha='center', va='bottom')
+
 plt.title("Top Skills in Data Analyst Job Descriptions")
 plt.ylabel("Mentions")
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig("sample_output/skill_bar_chart.png")
 plt.show()
-
-
