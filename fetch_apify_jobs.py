@@ -2,7 +2,7 @@ import os
 import requests
 import pandas as pd
 
-# Create folder if it doesn't exist
+# Create folder
 os.makedirs("sample_output", exist_ok=True)
 
 url = "https://api.apify.com/v2/datasets/BMmrW6MBTZoYlvwR5/items?clean=true&format=json&limit=1000"
