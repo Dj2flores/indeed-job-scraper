@@ -33,7 +33,6 @@ skills, counts = zip(*skill_counts.most_common())
 plt.figure(figsize=(10, 6))
 bars = plt.bar(skills, counts)
 
-# Add labels
 for bar in bars:
     yval = bar.get_height()
     plt.text(bar.get_x() + bar.get_width()/2, yval + 0.5, int(yval), ha='center', va='bottom')
