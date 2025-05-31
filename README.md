@@ -49,15 +49,6 @@ This tool is perfect for:
 - `posted date`: How recently the job was posted
 
 ---
-
-## 🧪 How to Run
-
-```bash
-pip install -r requirements.txt
-python fetch_apify_jobs.py
-
----
-
 ## Requirements / Data Source
 
 Python 3.8+
@@ -69,3 +60,10 @@ Data Source
 
 Apify Indeed Scraper
 Indeed.com
+
+
+## 🧪 How to Run
+
+```bash
+pip install -r requirements.txt
+python fetch_apify_jobs.py
