@@ -36,5 +36,7 @@ plt.title("Top Skills in Data Analyst Job Descriptions")
 plt.ylabel("Mentions")
 plt.xticks(rotation=45)
 plt.tight_layout()
+plt.savefig("sample_output/skill_bar_chart.png")
 plt.show()
+
 
