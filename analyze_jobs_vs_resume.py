@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Load job data
+# Job data
 df = pd.read_excel("sample_output/indeed_jobs_sample.xlsx")
 
 # Drop rows without descriptions
@@ -18,7 +18,7 @@ Skilled in Python, SQL, Excel, Tableau, and Power BI. Projects include job scrap
 and dashboards using Python, pandas, scikit-learn, matplotlib, and Excel.
 """
 
-# TF-IDF Vectorization
+# Vectorization
 vectorizer = TfidfVectorizer(stop_words="english")
 tfidf_matrix = vectorizer.fit_transform(df["combined_text"])
 resume_vec = vectorizer.transform([resume_text])
