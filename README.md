@@ -4,12 +4,6 @@ This project scrapes job postings from Indeed using the Apify API, analyzes the 
 
 ---
 
-## 📊 Skill Frequency Chart
-This chart visualizes the most commonly mentioned skills found in Data Analyst job descriptions scraped from Indeed using Apify. It shows demand for tools like SQL, Python, Excel, and BI platforms across California listings.
-![Skills](https://github.com/user-attachments/assets/b72c1cb9-9417-4139-abd7-161df0a398a0)
-
----
-
 ## 📦 Features
 
   - 🔍 Scrapes job data (title, company, location, description, date)
