@@ -1,6 +1,6 @@
-# 📊 Indeed Job Scraper (Apify + Python)
+# 🧠 Indeed Job Scraper and Resume-Based Job Match Analyzer
 
-This project uses [Apify](https://apify.com/) to scrape Data Analyst job postings from [Indeed](https://indeed.com), then pulls the results via API using Python and exports the data to Excel. It's ideal for portfolio use, job trend analysis, or skill extraction from real job listings.
+This project scrapes job postings from Indeed using the Apify API, analyzes the most mentioned skills using NLP, and compares the scraped jobs against my resume to recommend the best matches.
 
 ---
 
@@ -10,31 +10,56 @@ This chart visualizes the most commonly mentioned skills found in Data Analyst j
 
 ---
 
-## 🚀 Features
+## 📦 Features
 
-- ✅ Scrapes jobs by keyword and location using Apify cloud actor
-- ✅ Pulls job data via Apify Dataset API
-- ✅ Saves job listings to Excel (`.xlsx`)
-- ✅ Easy to automate and customize
-- ✅ Can be used for dashboards or job market analysis
+  - 🔍 Scrapes job data (title, company, location, description, date)
+  - 📊 Analyzes common skills using Natural Language Processing (NLP)
+  - ✅ Matches top jobs to your resume using TF-IDF and cosine similarity
+  - 📈 Visualizes top-mentioned skills and top job recommendations
 
 ---
 
 ## 🧠 Use Case
 
 This tool is perfect for:
-- Aspiring data analysts tracking job opportunities
-- Resume tailoring based on skills in demand
-- Portfolio visualizations using real-world data
+  - Aspiring data analysts tracking job opportunities
+  - Resume tailoring based on skills in demand
+  - Portfolio visualizations using real-world data
 
 ---
 
-## 🛠 How It Works
+## 📊 Skill Frequency Chart
+This chart visualizes the most commonly mentioned skills found in Data Analyst job descriptions scraped from Indeed using Apify. It shows demand for tools like SQL, Python, Excel, and BI platforms across California listings.
 
-1. Configure and run the [`misceres/indeed-scraper`](https://apify.com/misceres/indeed-scraper) actor on Apify
-2. Get the API URL of the dataset output (format: `format=json`)
-3. Paste the URL into `fetch_apify_jobs.py`
-4. Run the script to download job listings and save them to `sample_output/indeed_jobs_sample.xlsx`
+### Top Mentioned Skills
+![Skills](https://github.com/user-attachments/assets/b72c1cb9-9417-4139-abd7-161df0a398a0)
+
+### Top Job Matches Based on my Resume Similarity
+![Top 10 Matches](https://github.com/user-attachments/assets/2f7a7849-58d8-4d71-96d0-054404d3f73f)
+
+---
+## 📊 Resume-Based Job Matches (Summary)
+
+### Top Job Titles
+***Senior Data Analyst
+***Business Intelligence Analyst
+***Bank Fraud Senior Business Analyst
+***Data Analyst with Project Controls
+
+### Top Companies
+***Disney
+***Crowe LLP
+***GT’S Living Foods
+***Brio Solutions LLC
+
+### Highest Match Score
+***~0.40 (Crowe LLP – Bank Fraud Senior Business Analyst)
+
+### Job Locations
+***Primarily in Los Angeles and Santa Monica
+
+### Salary Ranges
+***Vary from ~$85,000 to over $218,000/year depending on role
 
 ---
 
