@@ -35,25 +35,25 @@ This chart visualizes the most commonly mentioned skills found in Data Analyst j
 ## 📊 Resume-Based Job Matches (Summary)
 
 ### Top Job Titles
-***Senior Data Analyst
-***Business Intelligence Analyst
-***Bank Fraud Senior Business Analyst
-***Data Analyst with Project Controls
+  - Senior Data Analyst
+  - Business Intelligence Analyst
+  - Bank Fraud Senior Business Analyst
+  - Data Analyst with Project Controls
 
 ### Top Companies
-***Disney
-***Crowe LLP
-***GT’S Living Foods
-***Brio Solutions LLC
+  - Disney
+  - Crowe LLP
+  - GT’S Living Foods
+  - Brio Solutions LLC
 
 ### Highest Match Score
-***~0.40 (Crowe LLP – Bank Fraud Senior Business Analyst)
+  - ~0.40 (Crowe LLP – Bank Fraud Senior Business Analyst)
 
 ### Job Locations
-***Primarily in Los Angeles and Santa Monica
+  - Primarily in Los Angeles and Santa Monica
 
 ### Salary Ranges
-***Vary from ~$85,000 to over $218,000/year depending on role
+  - Vary from ~$85,000 to over $218,000/year depending on role
 
 ---
 
